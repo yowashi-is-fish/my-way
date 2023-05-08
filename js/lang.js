@@ -25,3 +25,13 @@ lang.addEventListener("change", function() {
     });
   }
 });
+
+const toggleText = document.getElementById("checkbox");
+
+lang.addEventListener("change", function() {
+  if (this.checked) {
+    toggleText.textContent = "日本語";
+  } else {
+    toggleText.textContent = "English";
+  }
+});
