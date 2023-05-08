@@ -1,10 +1,10 @@
-## My-Way
+# My-Way
 
-# URL
+## URL
 https://yowashi-is-fish.github.io/my-way
 
-# Beta Version
+## Beta Version
 https://yowashi-is-fish.github.io/my-way/bata-index
 
-# Original
+## Original
 https://tbqr.sanseido-publ.co.jp/04-myway-ec1/contents/index.html
