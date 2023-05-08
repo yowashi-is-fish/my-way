@@ -8,6 +8,7 @@
 
 body {
   user-select: none;
+  -webkit-user-select:none;
   font-family: "Open Sans", sans-serif;
   color: var(--black);
   background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
