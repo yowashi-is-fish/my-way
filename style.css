@@ -9,7 +9,6 @@
 body {
   user-select: none;
   -webkit-user-select:none;
-  font-family: "Open Sans", sans-serif;
   color: var(--black);
   background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
 }
@@ -22,9 +21,17 @@ h2 {
   color: rgb(45, 50, 50);
 }
 
+p {
+  margin: 0;
+}
+
 ul {
   padding: 0;
   list-style: none;
+}
+
+fieldset {
+  border: none;
 }
 
 .text {
@@ -35,6 +42,14 @@ ul {
 
 .space {
   visibility: hidden;
+}
+
+.convo {
+  display: flex;
+  font-size: 120%;
+  color: #4b5564;
+  text-decoration: none;
+  margin: 0;
 }
 
 .logo {
@@ -558,6 +573,10 @@ ul {
 }
 
 @media (max-width: 768px) {
+  .box {
+    padding-bottom: 4%;
+  }
+
   .nav__inner {
     background-color: var(--white);
     padding-top: 0.5rem;
